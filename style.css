@@ -8,19 +8,24 @@ body {
 }
 header {
     border-bottom: solid 2px rgb(42, 122, 228);
-    justify-content: center;
- }
- .chamada-texto{
-     margin-right: 5%;
- }
- 
     padding: 20px;
     font-size: 32px;
-    color: rgb(42, 122, 228); 
-    
+    color: black;
+ }
+
+ section {
+    background: rgb(42, 122, 228);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+ }
+ .chamada-texto {
+    margin-right: 5%;
+ 
 }
 
-section{
+section {
    background:red (184, 156, 213);
    padding-bottom: 80px;  
    padding-top:  80px;
@@ -31,12 +36,13 @@ section{
     margin-right: 5%;
 }
 
-section
+section{
 background:red (184, 156, 213);
    padding-bottom: 80px;  
    padding-top:  80px;
    display: flex;
    justify-content: center;
+}
 
 .chamada-texto {
     margin-right: 5%;
